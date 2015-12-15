@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "JhipsterDemo",
+    "packageName": "com.haivuit.app",
+    "packageFolder": "com/haivuit/app",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "oracle",
+    "prodDatabaseType": "oracle",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "3d7c1d6c36f4568e243a9460a07d841889ccff6e",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ]
+  }
+}
